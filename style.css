@@ -1,0 +1,108 @@
+header {
+    background-color: rgb(186, 247, 178);
+    width: 100%;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+header ul li {
+    margin: 10px;
+}
+
+img {
+    width: 350px;
+}
+
+h1 {
+    font-size: 34px;
+    color: rgb(41, 18, 18);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    background-color: forestgreen;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(27, 22, 22);
+}
+
+.caja {
+    width: 100px;
+    display: contents;
+    flex-direction: row;
+}
+
+.h1 {
+    font: size 35px;
+    color: rgb(27, 52, 12);
+}
+
+.p {
+    width: 70px,
+        font-size: 30px;
+    padding: 10px;
+}
+
+.delicious-handrawn-regular {
+    font-family: "Delicious Handrawn", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.causas {
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+#causas {
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.contenedor {
+    font-display: ;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(255, 157, 187);
+}
+
+.consecuencia {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    font-size: larger;
+    padding: 10px;
+}
+
+.carrusel {
+    width: landscape;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.causas img {
+    width: 30px;
+    flex-direction: column;
+    height: 100%;
+}
